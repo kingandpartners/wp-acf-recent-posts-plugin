@@ -983,13 +983,13 @@ class acf_field_recent_posts extends acf_field {
 
 
         // register & include JS
-        wp_register_script( 'acf-input-FIELD_NAME', "{$url}assets/js/input.js", array('acf-input'), $version );
-        wp_enqueue_script('acf-input-FIELD_NAME');
+        wp_register_script( 'acf-input-recent_posts', "{$url}assets/js/input.js", array('acf-input'), $version );
+        wp_enqueue_script('acf-input-recent_posts');
 
 
         // register & include CSS
-        wp_register_style( 'acf-input-FIELD_NAME', "{$url}assets/css/input.css", array('acf-input'), $version );
-        wp_enqueue_style('acf-input-FIELD_NAME');
+        wp_register_style( 'acf-input-recent_posts', "{$url}assets/css/input.css", array('acf-input'), $version );
+        wp_enqueue_style('acf-input-recent_posts');
 
     }
 
