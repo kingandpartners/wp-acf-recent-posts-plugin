@@ -1,0 +1,168 @@
+/*--------------------------------------------------------------------------
+*
+*	Recent Posts
+*
+*-------------------------------------------------------------------------*/
+.acf-recent_posts {
+    background: #fff;
+    /* filters (top) */
+    /* list */
+    /* selection (bottom) */
+}
+.acf-recent_posts .filters {
+    border: #DFDFDF solid 1px;
+    background: #fff;
+}
+.acf-recent_posts .filters .inner {
+    padding: 7px 7px 7px 0;
+    margin: 0;
+}
+.acf-recent_posts .filters li:first-child .inner {
+    padding-left: 7px;
+}
+.acf-recent_posts .filters input {
+    border-color: transparent;
+    box-shadow: none;
+}
+.acf-recent_posts .filters .filter {
+    height: 28px;
+    line-height: 28px;
+    padding: 2px;
+    width: 100%;
+    margin: 0;
+    float: none;
+    /* potential fix for media popup? */
+}
+.acf-recent_posts .filters .filter:focus,
+.acf-recent_posts .filters .filter:active {
+    outline: none;
+    box-shadow: none;
+}
+.acf-recent_posts .list {
+    margin: 0;
+    /*padding: 5px;*/
+    /*height: 160px;*/
+    height: 280px;
+    overflow: auto;
+}
+.acf-recent_posts .list .acf-rel-label,
+.acf-recent_posts .list .acf-rel-item,
+.acf-recent_posts .list p {
+    padding: 5px 7px;
+    margin: 0;
+    display: block;
+    position: relative;
+    min-height: 18px;
+}
+.acf-recent_posts .list .acf-rel-label {
+    font-weight: bold;
+}
+.acf-recent_posts .list .acf-rel-item {
+    cursor: pointer;
+    /* hover */
+    /* disabled */
+}
+.acf-recent_posts .list .acf-rel-item b {
+    text-decoration: underline;
+    font-weight: normal;
+}
+.acf-recent_posts .list .acf-rel-item .thumbnail {
+    background: #e0e0e0;
+    width: 22px;
+    height: 22px;
+    float: left;
+    margin: -2px 5px 0 0;
+}
+.acf-recent_posts .list .acf-rel-item .thumbnail img {
+    max-width: 22px;
+    max-height: 22px;
+    margin: 0 auto;
+    display: block;
+}
+.acf-recent_posts .list .acf-rel-item .thumbnail.-icon {
+    background: #fff;
+}
+.acf-recent_posts .list .acf-rel-item .thumbnail.-icon img {
+    max-height: 20px;
+    margin-top: 1px;
+}
+.acf-recent_posts .list .acf-rel-item:hover {
+    background: #3875D7;
+    color: #fff;
+}
+.acf-recent_posts .list .acf-rel-item:hover .thumbnail {
+    background: #a2bfec;
+}
+.acf-recent_posts .list .acf-rel-item:hover .thumbnail.-icon {
+    background: #fff;
+}
+.acf-recent_posts .list .acf-rel-item.disabled {
+    opacity: 0.5;
+}
+.acf-recent_posts .list .acf-rel-item.disabled:hover {
+    background: transparent;
+    color: #333;
+    cursor: default;
+}
+.acf-recent_posts .list .acf-rel-item.disabled:hover .thumbnail {
+    background: #e0e0e0;
+}
+.acf-recent_posts .list .acf-rel-item.disabled:hover .thumbnail.-icon {
+    background: #fff;
+}
+.acf-recent_posts .list ul {
+    padding-bottom: 5px;
+}
+.acf-recent_posts .list ul .acf-rel-label,
+.acf-recent_posts .list ul .acf-rel-item,
+.acf-recent_posts .list ul p {
+    padding-left: 20px;
+}
+.acf-recent_posts .selection {
+    border: #DFDFDF solid 1px;
+    position: relative;
+    margin-top: -1px;
+    /* choices */
+    /* values */
+}
+.acf-recent_posts .selection .values,
+.acf-recent_posts .selection .choices {
+    width: 50%;
+    background: #fff;
+    float: left;
+}
+.acf-recent_posts .selection .choices {
+    background: #f7f7f7;
+}
+.acf-recent_posts .selection .choices .list {
+    border-right: #DFDFDF solid 1px;
+}
+.acf-recent_posts .selection .values .acf-icon {
+    position: absolute;
+    top: 4px;
+    right: 7px;
+    display: none;
+    /* rtl */
+}
+html[dir="rtl"] .acf-recent_posts .selection .values .acf-icon {
+    right: auto;
+    left: 7px;
+}
+.acf-recent_posts .selection .values .acf-rel-item:hover .acf-icon {
+    display: block;
+}
+.acf-recent_posts .selection .values .acf-rel-item {
+    cursor: move;
+}
+.acf-recent_posts .selection .values .acf-rel-item b {
+    text-decoration: none;
+}
+
+/*.acf-recent_posts .selection .choices .acf-bl > li:nth-child(even) {*/
+    /*background-color: #fff;*/
+/*}*/
+
+.acf-recent_posts .selection .choices .acf-bl > li:nth-child(odd),
+.acf-recent_posts .selection .values .acf-bl > li:nth-child(odd) {
+    background-color: #ebebeb;
+}
